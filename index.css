@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+#header-logo{
+    height: 100px;
+    
+
+}
+    
+body{
+    margin: 0;
+}
+
+#logo-div{
+    text-align: center;
+  
+}
+
+#logo-pic{
+    height: 100px;
+}
+
+#menu{
+    text-align: end;
+}
+
+#menu-span{
+    float: left;
+    height: 100px;
+    width: 100px;
+    margin-top: 35px;
+    
+
+}
+
+#cart-span{
+    float: right;
+    height: 100px;
+    width: 100px;
+    margin-top: 35px;
+    
+
+}
+
+.navigation{
+    overflow: hidden;
+    width: 100%;
+    background-color: rgb(160, 53, 53);
+    height: 30px;
+    white-space: nowrap;
+
+}
+
+.navigation:hover .nav-text{
+    animation-play-state: paused;
+    
+}
+
+.nav-text{
+    height: 50px;
+    animation: 15s slider infinite linear;
+    display: inline-block;
+    
+    
+}
+
+.nav-text label{
+    margin: 0 40px;
+    font-size: 25px;
+
+}
+
+
+@keyframes slider {
+    from{transform: translateX(0)}
+    to{transform: translateX(-100%)}
+}
+
+
+
+.collection-parent{
+    text-align: center;
+}
+
+.collection{
+    text-align: center;
+    margin-top: 30px;
+    position: relative;
+}
+
+#collection-h1{
+    text-align: center;
+}
+
+.img-btn{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 150px;
+    height: 40px;
+    border: 2px solid black;
+}
+
+.img-btn:hover {
+    animation:2s smoothchange ;
+}
+
+
+.footer-div{
+    background-color: grey;
+    height: auto;
+    text-align: center;
+    color: whitesmoke; 
+    
+}
+
+.footer-text{
+    padding: 35px;
+}
+
+.socialmedia-icons{
+    
+    white-space: nowrap;
+}
+
+.icons{
+    display: inline-block;
+    margin: 0 10px;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px;
+    
+}
+
+.icons:hover{
+    border: 2px solid black;
+    animation: 1s smoothchange ;
+}
+
+@keyframes smoothchange{
+    
+    100%{background-color:rgb(160, 53, 53);}
+        
+    
+}
+
+.back-to-top{
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+}
+
+#ups{
+    width: 40px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 3px;
+}
+
+#ups:hover{
+    animation:1s smoothchange ;
+}
